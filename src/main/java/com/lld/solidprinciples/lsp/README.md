@@ -1,5 +1,5 @@
-1. The Liskov Substitution Principle states that subclasses should be substitutable for their base classes. 
-2. The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application
+1. The Liskov Substitution Principle states that subclasses should be substitutable for their base classes.
+2. The Liskov Substitution Principle states that objects of a super class should be replaceable with objects of its subclasses without breaking the application
 
 This means that, given that class B is a subclass of class A, we should be able to pass an object of class B to any method that expects an object of class A and the method should not give any weird output in that case.
 

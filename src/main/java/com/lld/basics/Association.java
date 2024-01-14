@@ -5,19 +5,20 @@ package com.lld.basics;
  *
  */
 class A {
-    void show(){
+    void show() {
         System.out.println("class A");
     }
 }
 
 class B extends A {
     @Override
-    void show(){
+    void show() {
         System.out.println("class B");
     }
 }
+
 public class Association {
-    public static  void main(String args[]){
+    public static void main(String args[]) {
         A a = new A();
         B a1 = new B();
         a.show();
