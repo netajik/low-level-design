@@ -1,4 +1,4 @@
-package com.lld.concurrencyproblems;
+package com.lld.carrentalsystem;
 
 import lombok.Getter;
 import lombok.Setter;
