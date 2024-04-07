@@ -1,4 +1,4 @@
-package com.design.patterns.behavioural.strategy;
+package com.designpatterns.behavioural.strategy;
 
 public class UpiPaymentStrategy implements PaymentStrategy{
 

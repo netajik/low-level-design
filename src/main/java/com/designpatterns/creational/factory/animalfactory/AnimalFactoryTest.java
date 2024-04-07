@@ -1,4 +1,4 @@
-package com.design.patterns.creational.factory.animalfactory;
+package com.designpatterns.creational.factory.animalfactory;
 
 abstract class AnimalFactory {
     abstract Animal createAnimal();

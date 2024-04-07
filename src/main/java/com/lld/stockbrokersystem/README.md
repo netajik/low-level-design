@@ -11,3 +11,8 @@
     Stop-loss order: Buy or sell stocks when they reach a certain price.
     Stop-limit order: Buy or sell stocks with a restriction on the limit price (maximum price to be paid, minimum price to be received, etc).
     R6: The system should allow the user to make deposits and withdrawals using checks, wire transfers, or electronic bank transfers.
+
+    Design pattern
+    In the online stock brokerage system, there is going to be only one instance of the stock exchange, which encloses all the information and relations relating to the stock exchange. Therefore, we use the Singleton design pattern to ensure that only one instance for the class is created and this instance has a global point of access.
+
+    We can also use the Observer design pattern for our online stock brokerage system. Since the user has set buying and selling limits, the system observes stock prices, and when a stock reaches the specified price it buys and sells the stock automatically. Therefore, there is a need for an observer who observes the price of stock all the time.
